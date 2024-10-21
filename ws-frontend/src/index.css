@@ -1,0 +1,33 @@
+@import url("https://unpkg.com/leaflet@1.9.3/dist/leaflet.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-container{
+    align-items: center;
+    padding: auto;
+    margin: 10px 0;
+    height: 600px;
+    width: 80%;
+    border-color: blue;
+    border: solid 1px;
+}
+
+.leaflet-div-icon{
+    background: transparent;
+    border: none;
+}
+
+table{
+    background-color: rgba(101, 74, 48, 0.181);
+    align-items: center;
+    table-layout: fixed;
+
+}
+
+th{
+    border-color: black;
+    border: solid 1px;
+    padding:10px 10px;
+}
